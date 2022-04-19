@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* reset css */
+.body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 28.8px;
+    letter-spacing: 10%;
+    color: #F1F0EB;
+    background-color:black;
+    letter-spacing: 0.1em;
+}
+
+.h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400px;
+    font-size: 80px;
+    line-height: 125%;
+}
+.h4{
+    font-weight: 600px;
+    font-size: 40px;
+    line-height: 125%;
+}
+.h5{
+    font-weight: 500px;
+    font-size: 24px;
+    line-height: 130%;
+}
+.h6{
+    font-weight: 700px;
+    font-size: 18px;
+    line-height: 130%;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.text-primary{
+    color:aliceblue;
+}
+.text-sencodary{
+    color:aliceblue;
+}
+.bg-primary{
+    background-color: aquamarine;
+}
+.bg-sencodary{
+    background-color: aquamarine; 
+}
+.text-align{
+    text-align: left;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align:right;
+}
+.text-justify{
+    text-align:justify;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.row>[class*="col-"]{
+    padding: 12px;
+}
+/* Flex */
+
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-start{
+    justify-content: flex-start;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.align-item-star{
+    align-items: flex-start;
+    
+}
+.align-item-center{
+    align-items: center;
+}
+.align-item-end{
+    align-items: flex-end;
+}
+.align-self-start{
+    align-self: flex-start;
+}
+.align-self-center{
+    align-self: center;
+}
+.align-self-end{
+    align-self: flex-end;
+}
+.w-100{
+    width: 100%;
+}
+.col-1{
+    width: 8.33%;
+    
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+    
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+    
+}
+.col-6{
+    width: 50%;
+    
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
